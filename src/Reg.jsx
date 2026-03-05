@@ -15,7 +15,7 @@ function Reg() {
 
     const submit = async () => {
         try {
-            const res = await axios.post("https://demo-back-quvp.onrender.com",
+            const res = await axios.post("https://demo-back-quvp.onrender.com/register",
                 data
             )
             alert(res.data);
